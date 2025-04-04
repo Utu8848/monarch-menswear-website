@@ -1,0 +1,383 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Italiana', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    display: inline;
+}
+
+input::placeholder {
+    font-family: 'Inria serif', serif;
+    font-size: 20px;
+    color: gray;
+}
+
+p {
+    font-family: 'Inria serif', serif;
+    font-size: 40px;
+    color: black;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+}
+
+.input-query {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.inputs input {
+    font-size: 20px;
+}
+
+.forgot {
+    font-family: 'Inria serif', serif;
+    font-size: 14px;
+    color: gray;
+}
+
+button {
+    padding: 15px 30px;
+    font-family: 'Inria serif', serif;
+    font-size: 30px;
+    color: black;
+    background: white;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.or {
+    font-family: 'Inria serif', serif;
+    color: gray;
+    font-size: 20px;
+}
+
+hr {
+    width: 170px;
+    border: 0;
+    border-top: 2px solid gray;
+}
+
+.or-section {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in-google {
+    font-family: 'Inria serif', serif;
+    font-size: 20px;
+    color: black;
+}
+
+.google {
+    padding: 15px 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.main-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sign-up-title {
+    font-family: 'Inria serif', serif;
+    color: white;
+    font-size: 30px;
+}
+
+.welcome-message {
+    font-family: 'Inria serif', serif;
+    color: white;
+    font-size: 20px;
+    max-width: 380px;
+    text-align: center;
+    line-height: 2;
+}
+
+.main-sign-up button {
+    padding: 15x 30px;
+    border: 1px solid white;
+    background: black;
+}
+
+.sign-up{
+    font-family: 'Inria serif', serif;
+    -webkit-text-stroke: 0.3px white;
+    color: black;
+    font-size: 30px;
+}
+
+.main-sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.sign-up-section {
+    width: 589px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Royal-black.png);
+    height: 830px;
+}
+
+.main-sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-page {
+    display: flex;
+    justify-content: space-between
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.forgot:hover {
+    cursor: pointer;
+    color: black;
+}
+
+@media (max-width: 412px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-family: 'Italiana', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        display: inline;
+    }
+
+    .logo img {
+        height: 20px;
+    }
+
+    input::placeholder {
+        font-family: 'Inria serif', serif;
+        font-size: 10px;
+        color: gray;
+    }
+
+    p {
+        font-family: 'Inria serif', serif;
+        font-size: 20px;
+        color: black;
+    }
+
+    input {
+        width: 370px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding-left: 10px;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 370px;
+    }
+
+    .input-query {
+        display: flex;
+        width: 370px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .inputs input {
+        font-size: 10px;
+    }
+
+    .forgot {
+        font-family: 'Inria serif', serif;
+        font-size: 14px;
+        color: gray;
+    }
+
+    button {
+        padding: 7px 15px;
+        font-family: 'Inria serif', serif;
+        font-size: 15px;
+        color: black;
+        background: white;
+        border-radius: 7px;
+        width: fit-content;
+    }
+
+    .or {
+        font-family: 'Inria serif', serif;
+        color: gray;
+        font-size: 10px;
+    }
+
+    hr {
+        width: 170px;
+        border: 0;
+        border-top: 2px solid gray;
+    }
+
+    .or-section {
+        display: flex;
+        justify-content: center;
+        width: 380px;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .sign-in-google {
+        font-family: 'Inria serif', serif;
+        font-size: 10px;
+        color: black;
+    }
+
+    .google {
+        padding: 7px 15px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        border-radius: 7px;
+    }
+
+    .google img {
+        width: 12px;
+    }
+
+    .login-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 11px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .main-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .sign-up-title {
+        font-family: 'Inria serif', serif;
+        color: white;
+        font-size: 20px;
+    }
+
+    .welcome-message {
+        font-family: 'Inria serif', serif;
+        color: white;
+        font-size: 10px;
+        max-width: 100%;
+        line-height: 2.5;
+        text-align: center;
+    }
+
+    .main-sign-up button {
+        padding: 7x 15px;
+        border: 1px solid white;
+        background: black;
+    }
+
+    .sign-up{
+        font-family: 'Inria serif', serif;
+        -webkit-text-stroke: 0.3px white;
+        color: black;
+        font-size: 15px;
+    }
+
+    .main-sign-up {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .sign-up-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/mobile-carpet.png);
+        height: 410px;
+    }
+
+    .main-sign-in {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-page {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .forgot:hover {
+        cursor: pointer;
+        color: black;
+    }
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="header">
+            <div class="logo">
+                <h1>Monarch</h1>
+                <img src="images/crown.png" alt="Crown Logo">
+                <br>
+                <h1>Menswear</h1>
+            </div>
+
+            <div class="header-right">
+                <div class="search-bar">
+                    <input class="search-bar" type="text" placeholder="What are you looking for?">
+                    <i class="fas fa-search"></i>
+                </div>
+            
+                <div class="top-right-icons">
+                    <a href="Login-Page.html" class="product-link">
+                        <img src="images/account.png" alt="Account Icon">
+                    </a>
+                    <a href="Wishlist-Page.html" class="product-link">
+                        <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="Shopping-Bag-Page.html" class="product-link">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-menu">
+            <span>New!</span>
+            <span>Bestseller</span>
+            <span>Formalwear</span>
+            <span>Streetwear</span>
+            <span>Smartwear</span>
+            <span>Sportswear</span>
+            <span>Partywear</span>
+            <span>Outdoors</span>
+        </div>
+
+        <hr class="category-line">
+    </div>
+
+    <div class="product-container">
+        <div class="product-images">
+            <img src="pdp/pdp1.png" alt="Suit Image 1">
+            <img src="pdp/pdp2.png" alt="Suit Image 2">
+            <img src="pdp/pdp3.png" alt="Suit Image 3" class="no-mobile">
+        </div>
+        <div class="product-info">
+            <div>
+                <div class="product-header">
+                    <h2>Calvin Klein</h2>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <p class="product-desc">Slim Fit Windowpane Suit Separates Jacket for a modern, sharp look</p>
+            </div>
+            <p class="price">Price: $314.99</p>
+            
+            <div class="color-selection">
+                <p>Color:</p>
+                <div class="button1">
+                    <button class="color-btn navy"></button>
+                    <span>Navy Plaid</span>
+                </div>
+            </div>
+            
+            <div class="size-selection">
+                <p>Size:</p>
+                <div class="sizes">
+                    <button>36</button><button>38</button><button>40</button><button>42</button>
+                    <button>44</button><button>46</button><button>48</button><button>50</button>
+                    <button>52</button><button>54</button><button>56</button><button>58</button>
+                    <button>60</button>
+                </div>
+            </div>
+            
+            <div class="length-selection">
+                <p>Length:</p>
+                <button>Short</button> <button>Regular</button> <button>Long</button> <button>Extra Long</button>
+            </div>
+            
+            <div class="quantity">
+                <label for="qty">Qty:</label>
+                <select id="qty">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            
+            <p class="shipping"><i class="fas fa-shipping-fast"></i> Ships within 1-2 business days</p>
+        </div>
+    </div>
+
+    <hr class="category-line">
+    <div class="product-details">
+            <h1>PRODUCT DETAILS</h1>
+        <div class="all-details">
+            <ul>
+                <li>
+                    <span class="topic">Suit Separates:</span>
+                    <span class="description"> Choose pant and jacket sizes separately for an ideal fit.</span>
+                </li>
+                <li>
+                    <span class="topic">Calvin Klein X-Fit Suit Jacket:</span>
+                    <span class="description"> Features a classic windowpane plaid pattern.</span>
+                </li>
+                <li>
+                    <span class="topic">Fabric Composition:</span>
+                    <span class="description"> 70% Wool, 28% Polyester, 2% Lastol, with little stretch for comfort.</span>
+                </li>
+                <li>
+                    <span class="topic">Design Features:</span>
+                    <span class="description"> 2-Button, Full Lined, Side-Vented, Notch Lapel, Flap Pocket.</span>
+                </li>
+                <li>
+                    <span class="topic">Fit:</span>
+                    <span class="description"> Slim Fit for a modern, tailored silhouette.</span>
+                </li>
+                <li>
+                    <span class="topic">Care:</span>
+                    <span class="description"> Dry Clean Only.</span>
+                </li>
+                <li>
+                    <span class="topic">Origin:</span>
+                    <span class="description"> Imported.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="category-line">
+
+    <div class="review-section">
+        <h1>REVIEW</h1>
+        <div class="reviews">
+            <span>Reviews</span>
+            <div class="review-top-right">
+                <div class="star-icon">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <span>0 reviews</span>
+            </div>
+        </div>
+
+        <div class="big-star-icon">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+
+        <div class="review-paragraph">
+            <p>Be the first to review this product</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Meet Our Team</h3>
+                    <ul>
+                        <li><a href="#">The Monarch Menswear Journey</a></li>
+                        <li><a href="#">Sustainable Fashion</a></li>
+                        <li><a href="#">Our Bestsellers</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Meet Our Team</h3>
+                    <ul>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Shipping Information</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Track Your Order</a></li>
+                        <li><a href="#">Get in Touch</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Website Navigation</a></li>
+                        <li><a href="#">Store Locations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column newsletter">
+                    <h3>Be the insider for new trends, deals, and more!</h3>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email Address">
+                        <button>SIGN UP</button>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" placeholder="Phone Number">
+                        <button>SIGN UP</button>
+                    </div>
+                    <div class="social-icons">
+                        <img src="images/twitter.png" alt="Twitter Icon">
+                        <img src="images/facebook.png" alt="Facebook Icon">
+                        <img src="images/instagram.png" alt="Instagram Icon">
+                        <img src="images/fa_youtube.png" alt="Youtube Icon">
+                        <img src="images/linkedin.png" alt="Linkedin Icon">
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms & Conditions</a>
+                    <span>|</span>
+                    <p>© 2024 Monarch Menswear. All rights reserved.</p>
+                </div>
+                <div class="security-logo">
+                    <img src="https://www.thesslstore.com/content/images/digiCert-basic-seal-new.svg" alt="DigiCert Secured">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="mobile-view">
+        <div class="footer-section">
+            <div class="topic-inputs">
+                <span class="note">Be the insider for new trends, deals, and more!</span>
+                <div class="foot1">
+                    <div class="input-group">
+                        <input type="email" placeholder="Email Address">
+                        <button>SIGN UP</button>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" placeholder="Phone Number">
+                        <button>SIGN UP</button>
+                    </div>
+                    <div class="social-icons">
+                        <img src="images/twitter.png" alt="">
+                        <img src="images/facebook.png" alt="">
+                        <img src="images/instagram.png" alt="">
+                        <img src="images/fa_youtube.png" alt="">
+                        <img src="images/linkedin.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="foot2">
+                <div class="column">
+                    <span class="heading">Company</span>
+                    <span>About Us</span>
+                    <span>Careers</span>
+                    <span>Investor Relations</span>
+                </div>
+                <div class="column">
+                    <span class="heading">Customer Care</span>
+                    <span>Help Center</span>
+                    <span>Returns</span>
+                    <span>Shipping</span>
+                    <span>Contact Us</span>
+                    <span>Site Map</span>
+                </div>
+                <div class="column">
+                    <span class="heading">Quick Links</span>
+                    <span>Gift Cards</span>
+                    <span>Promotional Terms</span>
+                    <span>Store Locator</span>
+                </div>
+            </div>
+            <img src="images/digicert.png" alt="digicert">
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms & Conditions</a>
+                    <span>|</span>
+                    <p>© 2024 Monarch Menswear. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
